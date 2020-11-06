@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="logic.js"></script>
+
+
+
+
+    <div class="container">
+        
+        <table>
+            <th>Tip Calculator</th>
+            <tr>
+                <td>Bill <input type="number" onfocus="this.value=' '" value="0" class="form-action" id="bill"></td>
+                <td>Tip per person<input type=" " value="0.00" class="form-action" id="tipPerPerson" disabled></td>
+            </tr>
+            <tr>
+                <td>Tip <input type="percent" onfocus="this.value=' '" value="0" class="form-action" id="tip"></td>
+                <td>Total per person <input type=" " value="0.00" class="form-action" id="total" disabled></td>
+            </tr>
+            <tr>                
+                <td>Person <input type="number" onfocus="this.value=' '" value="0" class="form-action" id="person"></td>           
+                <td><button class="btn" onclick="calculate()">Calculate</button></td>
+            </tr>
+        </table>
+
+    </div>
+
+
+</body>
+</html>
